@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hawaii travel nextwork</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca|Odibee+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="user-scalable = yes, width=320, initial-scale=1">
+  </head>
+  <body>
+    <main>
+      <nav class="main-nav" id="main-nav">
+           <section>
+               <ul>
+                   <li class="home"><a href="#"><span>home</span></a></li>
+                   <li>
+                       <a class="parentAnchor" href="#">oahu luaus</a>
+                   </li>
+                   <li>
+                       <a class="parentAnchor" href="#">kauai luaus</a>
+                   </li>
+                   <li>
+                       <a class="parentAnchor" href="#">maui luaus</a>
+                   </li>
+                   <li>
+                       <a class="parentAnchor" href="#">big island luaus</a>
+                   </li>
+                   <li><a class="parentAnchor" href="#">groups</a></li>
+                   <li><a class="parentAnchor" href="#">about us</a></li>
+                   <li><a class="parentAnchor" href="#">blog</a></li>
+                   <li><a class="parentAnchor" href="#">cart</a></li>
+               </ul>
+           </section>
+       </nav>
+    <div class="wrapper">
+      <!-- ========== masthead ========== -->
+      <div class="masthead">
+        <section>
+          <a href="#" class="logo"><img src="images/LOGO.png" alt="" ></a>
+          <a href="#" class="cart-link"><i class="material-icons">shopping_cart</i></a>
+          <p id="tool-tip-desktop">find what you're looking for</p>
+          <button type="button" name="button" class="menu-btn" onclick="idToggle('menu-btn','active');idToggle('main-nav','active')" id="menu-btn">
+            <hr class="menu-btn-hr-1" />
+            <hr class="menu-btn-hr-2" />
+            <hr class="menu-btn-hr-3" />
+          </button>
+          <nav class="phone">
+            <ul>
+              <li class="phone-left"><a href="tel:+1-866-482-9775"><span>toll free</span> 1-866-482-9775</a></li>
+              <li class="phone-right"><a href="tel:808-892-2082"><span>local</span> 808-892-2082</a></li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+        <!-- ========== banner ========== -->
+      <div class="top-cont">
+        <div class="checkpoint-first" id="first-cont">
+          <div class="banner-wrapper">
+            <div class="banner">
+              <section>
+                <header>
+                  <h1>discounts on every luau in hawaii</h1>
+                </header>
+              </section>
+              <hr>
+              <img src="images/man.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- ========== islands ========== -->
+        <div class="checkpoint" id="second-cont">
+          <div class="island-nav">
+            <section>
+              <header>
+                start by choosing an island<br/>
+              </header>
+              <div class="map-content">
+                  <div class="island-a maui-a">
+                    <a href="#">
+                      <img src="images/maui_icon.png" alt="" class="delayed-img"/>
+                      <h3>maui</h3>
+                    </a>
+                  </div>
+                  <div class="island-a oahu-a">
+                    <a href="#">
+                      <img src="images/oahu_icon.png" alt="" class="delayed-img"/>
+                      <h3>oahu</h3>
+                    </a>
+                  </div>
+                  <div class="island-a kauai-a">
+                    <a href="#">
+                      <img src="images/kauai_icon.png" alt="" class="delayed-img"/>
+                      <h3>kauai</h3>
+                    </a>
+                  </div>
+                  <div class="island-a big-island-a">
+                    <a href="#">
+                      <img src="images/big_island_icon.png" alt="" class="delayed-img"/>
+                      <h3>big island</h3>
+                    </a>
+                  </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ==========         oahu luaus ============================== -->
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <div class="checkpoint">
+      <div class="activities" id="oahu-luau">
+        <header>
+          <h2>best oahu luaus<br/><span>choose from the oahu luaus below</span></h2>
+          <img src="images/oahuluaugirls.png" alt="">
+        </header>
+        <div class="activities-container">
+          <section>
+          <div class="activities-nav">
+            <!-- ==================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-1','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/oahu-disc-images.jpg" alt="" class="delayed-img luau-1"></div>
+                <ul><li class="activity-title"><span>chiefs luau</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+            <!-- ==================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-2','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img">
+                  <img src="images/oahu-disc-images.jpg" alt="" class="delayed-img luau-2">
+                </div>
+                <ul><li class="activity-title"><span>germaine's luau</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+            <!-- ==================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-3','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/oahu-disc-images.jpg"  alt="" class="delayed-img luau-3"></div>
+                <ul><li class="activity-title"><span>aha'aina<br />luau</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+           <!-- ===================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-4','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/oahu-disc-images.jpg"  alt="" class="delayed-img luau-4"></div>
+                <ul><li class="activity-title"><span>diamond head<br />luau</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+            <!-- ================================= -->
+          </div>
+          <a href="#" class="more-luaus">more oahu luaus</a>
+          <button class="next-island" id="to-maui">maui luaus <!-- <span class="material-icons">arrow_downward</span> --></button>
+          <script>
+          $("#to-maui").on("click",function(){
+            $('html,body').animate({scrollTop:$('#maui-luau').offset().top})
+          })
+          </script>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- ================ details ==========================  -->
+    <!-- ============================= -->
+    <div class="detail-window" id="dtl-1">
+      <div class="detail">
+        <header><h3>luau title goes here 1</h3> <button type="button" name="button" onclick="idToggle('dtl-1','active')"><span class="material-icons">close</span></button></header>
+        <article>
+          <div class="detail-img"><img src="images/oahu-disc-images.jpg" alt="" class="delayed-img luau-1"></div>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+        <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+        <a href="#">book now</a>
+      </div>
+    </div>
+    <!-- ============================= -->
+    <div class="detail-window" id="dtl-2">
+      <div class="detail">
+        <header><h3>luau title goes here 2</h3> <button type="button" name="button" onclick="idToggle('dtl-2','active')"><span class="material-icons">close</span></button></header>
+        <article>
+          <div class="detail-img"><img src="images/oahu-disc-images.jpg" alt="" class="delayed-img luau-2"></div>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+        <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+        <a href="#">book now</a>
+      </div>
+    </div>
+    <!-- ============================= -->
+    <div class="detail-window" id="dtl-3">
+      <div class="detail">
+        <header><h3>luau title goes here 3</h3> <button type="button" name="button" onclick="idToggle('dtl-3','active')"><span class="material-icons">close</span></button></header>
+        <article>
+          <div class="detail-img"><img src="images/oahu-disc-images.jpg" alt="" class="delayed-img luau-3"></div>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+        <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+        <a href="#">book now</a>
+      </div>
+    </div>
+    <!-- ============================= -->
+    <div class="detail-window" id="dtl-4">
+      <div class="detail">
+        <header><h3>luau title goes here 4</h3> <button type="button" name="button" onclick="idToggle('dtl-4','active')"><span class="material-icons">close</span></button></header>
+        <article>
+          <div class="detail-img"><img src="images/oahu-disc-images.jpg" alt="" class="delayed-img luau-4"></div>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+        <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+        <a href="#">book now</a>
+      </div>
+    </div>
+    <!-- ============================================================ -->
+    <!-- ============================================================ -->
+    <!-- ==========         maui luaus ============================== -->
+    <!-- ============================================================ -->
+    <!-- ============================================================ -->
+      <div class="checkpoint">
+      <div class="activities" id="maui-luau">
+      <header>
+        <h2>best maui luaus<br/><span>choose from the best maui luaus below</span></h2>
+        <img src="images/luau_people.png" alt="">
+      </header>
+      <div class="activities-container">
+      <section>
+         <div class="activities-nav">
+            <!--- activities go here --->
+            <!-- ==================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-5','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/maui-disc-images.jpg" alt="" class="delayed-img luau-1"></div>
+                <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+            <!-- ==================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-6','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/maui-disc-images.jpg" alt="" class="delayed-img luau-2"></div>
+                <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+            <!-- ==================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-7','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/maui-disc-images.jpg"  alt="" class="delayed-img luau-3"></div>
+                <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+           <!-- ===================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-8','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/maui-disc-images.jpg"  alt="" class="delayed-img luau-4"></div>
+                <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+            <!-- ================================= -->
+            <!--- activities go here --->
+          </div>
+          <a href="#" class="more-luaus">more maui luaus</a>
+          <button class="next-island" id="to-big-island">big island luaus <!-- <span class="material-icons">arrow_downward</span> --></button>
+          <script>
+          $("#to-big-island").on("click",function(){
+            $('html,body').animate({scrollTop:$('#big-island-luau').offset().top})
+          })
+          </script>
+          </section>
+        </div>
+        </div>
+      </div>
+      <!-- ================ details ==========================  -->
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-5">
+        <div class="detail">
+          <header><h3>luau title goes here 5</h3> <button type="button" name="button" onclick="idToggle('dtl-5','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/maui-disc-images.jpg" alt="" class="delayed-img luau-1"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-6">
+        <div class="detail">
+          <header><h3>luau title goes here 6</h3> <button type="button" name="button" onclick="idToggle('dtl-6','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/maui-disc-images.jpg" alt="" class="delayed-img luau-2"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-7">
+        <div class="detail">
+          <header><h3>luau title goes here 7</h3> <button type="button" name="button" onclick="idToggle('dtl-7','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/maui-disc-images.jpg" alt="" class="delayed-img luau-3"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-8">
+        <div class="detail">
+          <header><h3>luau title goes here 8</h3> <button type="button" name="button" onclick="idToggle('dtl-8','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/maui-disc-images.jpg" alt="" class="delayed-img luau-4"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ==========   big island luaus ============================== -->
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <div class="checkpoint">
+      <div class="activities" id="big-island-luau">
+        <header>
+          <h2>best big island luaus<br/><span>choose from the best big island luaus below</span></h2>
+          <img src="images/haleo_performer.png" alt="">
+        </header>
+          <div class="activities-container">
+          <section>
+          <div class="activities-nav">
+          <!--- activities go here --->
+          <!-- ==================================== -->
+          <div class="activity">
+            <button type="button" class="detail-btn" onclick="idToggle('dtl-9','active')"><span class="material-icons">help_outline</span></button>
+            <a href="#">
+              <div class="activity-img"><img src="images/big-island-disc-images.jpg" alt="" class="delayed-img luau-1"></div>
+              <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+            </a>
+          </div>
+          <!-- ==================================== -->
+          <div class="activity">
+            <button type="button" class="detail-btn" onclick="idToggle('dtl-10','active')"><span class="material-icons">help_outline</span></button>
+            <a href="#">
+              <div class="activity-img"><img src="images/big-island-disc-images.jpg" alt="" class="delayed-img luau-2"></div>
+              <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+            </a>
+          </div>
+          <!-- ==================================== -->
+          <div class="activity">
+            <button type="button" class="detail-btn" onclick="idToggle('dtl-11','active')"><span class="material-icons">help_outline</span></button>
+            <a href="#">
+              <div class="activity-img"><img src="images/big-island-disc-images.jpg"  alt="" class="delayed-img luau-3"></div>
+              <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+            </a>
+          </div>
+         <!-- ===================================== -->
+          <div class="activity">
+            <button type="button" class="detail-btn" onclick="idToggle('dtl-12','active')"><span class="material-icons">help_outline</span></button>
+            <a href="#">
+              <div class="activity-img"><img src="images/big-island-disc-images.jpg"  alt="" class="delayed-img luau-4"></div>
+              <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+            </a>
+          </div>
+          <!-- ================================= -->
+          <!--- activities go here --->
+          </div>
+          <a href="#" class="more-luaus">more big island luaus</a>
+          <button class="next-island" id="to-kauai">kauai luaus <!-- <span class="material-icons">arrow_downward</span> --></button>
+          <script>
+          $("#to-kauai").on("click",function(){
+            $('html,body').animate({scrollTop:$('#kauai-luau').offset().top})
+          })
+          </script>
+          </section>
+          </div>
+      </div>
+      </div>
+      <!-- ================ details ==========================  -->
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-9">
+        <div class="detail">
+          <header><h3>luau title goes here 9</h3> <button type="button" name="button" onclick="idToggle('dtl-9','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/big-island-disc-images.jpg" alt="" class="delayed-img luau-1"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-10">
+        <div class="detail">
+          <header><h3>luau title goes here 10</h3> <button type="button" name="button" onclick="idToggle('dtl-10','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/big-island-disc-images.jpg" alt="" class="delayed-img luau-2"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-11">
+        <div class="detail">
+          <header><h3>luau title goes here 11</h3> <button type="button" name="button" onclick="idToggle('dtl-11','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/big-island-disc-images.jpg" alt="" class="delayed-img luau-3"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-12">
+        <div class="detail">
+          <header><h3>luau title goes here 12</h3> <button type="button" name="button" onclick="idToggle('dtl-12','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/big-island-disc-images.jpg" alt="" class="delayed-img luau-4"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ==========  kauai luaus ============================== -->
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <div class="checkpoint">
+      <div class="activities" id="kauai-luau">
+        <header>
+          <h2>best kauai luaus<br/><span>choose from the kauai luaus below</span></h2>
+          <img src="images/girl.png" alt="">
+        </header>
+        <div class="activities-container">
+          <section>
+          <div class="activities-nav">
+            <!--- activities go here --->
+            <!-- ==================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-13','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/kauai-disc-images.jpg" alt="" class="delayed-img luau-1"></div>
+                <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+            <!-- ==================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-14','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/kauai-disc-images.jpg" alt="" class="delayed-img luau-2"></div>
+                <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+            <!-- ==================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-15','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/kauai-disc-images.jpg"  alt="" class="delayed-img luau-3"></div>
+                <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+           <!-- ===================================== -->
+            <div class="activity">
+              <button type="button" class="detail-btn" onclick="idToggle('dtl-16','active')"><span class="material-icons">help_outline</span></button>
+              <a href="#">
+                <div class="activity-img"><img src="images/kauai-disc-images.jpg"  alt="" class="delayed-img luau-4"></div>
+                <ul><li class="activity-title"><span>luau title goes here</span></li><li class="activity-price"><span>from $00.00</span></li></ul>
+              </a>
+            </div>
+            <!-- ================================= -->
+            <!--- activities go here --->
+          </div>
+          <a href="#" class="more-luaus">more kaui luaus</a>
+          </section>
+        </div>
+        </div>
+      </div>
+      <!-- ================ details ==========================  -->
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-13">
+        <div class="detail">
+          <header><h3>luau title goes here 13</h3> <button type="button" name="button" onclick="idToggle('dtl-13','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/kauai-disc-images.jpg" alt="" class="delayed-img luau-1"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-14">
+        <div class="detail">
+          <header><h3>luau title goes here 14</h3> <button type="button" name="button" onclick="idToggle('dtl-14','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/kauai-disc-images.jpg" alt="" class="delayed-img luau-2"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-15">
+        <div class="detail">
+          <header><h3>luau title goes here 15</h3> <button type="button" name="button" onclick="idToggle('dtl-15','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/kauai-disc-images.jpg" alt="" class="delayed-img luau-3"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================= -->
+      <div class="detail-window" id="dtl-16">
+        <div class="detail">
+          <header><h3>luau title goes here 16</h3> <button type="button" name="button" onclick="idToggle('dtl-16','active')"><span class="material-icons">close</span></button></header>
+          <article>
+            <div class="detail-img"><img src="images/kauai-disc-images.jpg" alt="" class="delayed-img luau-4"></div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </article>
+          <ul><li>duration<span>0 hours</span></li><li>from<span>$000.00</span></li><li>from<span>$000.00</span></li></ul>
+          <a href="#">book now</a>
+        </div>
+      </div>
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <div class="article-wrapper">
+      <header>catchy tagline</header>
+      <div class="article-section">
+        <div class="article-bloc" id="article-1">
+          <div class="article-img">
+            <p>featured luau: chief's luau</p>
+            <div id="playerWrapper">
+              <div id="player"></div>
+            </div>
+            <script>
+            var tag = document.createElement('script');
+
+            tag.src="https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            var player;
+            function onYouTubeIframeAPIReady() {
+              player = new YT.Player('player', {
+                host: 'https://www.youtube.com',
+                rel: '0',
+                videoId: '0KzvUPiFL-Q',
+                events: {
+                  'onReady': onPlayerReady,
+                  'onStateChange': onPlayerStateChange
+                },
+                playerVars: {
+                  rel:0,
+                  showInfo:0
+                }
+              });
+            }
+            function onPlayerReady(event) {
+              player.mute();
+              event.target.playVideo();
+            }
+            function onPlayerStateChange(event) {
+              if(player.getPlayerState() === 0){
+                console.log("ended");
+              }
+              if(player.getPlayerState() === 2){
+                console.log("paused");
+                $('.ytp-button.ytp-collapse').click();
+              }
+            }
+            </script>
+          </div>
+          <article>
+            <p><span>V</span>isiting a Hawaiian luau is one of the top things to do in Hawaii. This Hawaiian tradition is the perfect way to immerse yourself in island culture, try Hawaiian cuisine and enjoy music and dances from Hawaii and other Polynesian islands, such as Tahiti, Samoa and Tonga.</p>
+            <p><span>N</span>o matter which of the four main Hawaiian islands you are visiting, there are several traditional luaus to choose from. What all Hawaiian luaus have in common is a big all-you-care-to-eat luau buffet dinner. Sample popular luau delicacies, such as kalua roast pig, lomi lomi salmon and fresh island fish, or savor continental favorites like prime rib and chicken.</p>
+          </article>
+        </div>
+        <div class="article-bloc" id="article-2">
+          <article>
+            <p><span>P</span>rior to the big feast, you are invited to watch or participate in Hawaiian arts & crafts and other activities, such as hula and ukulele lessons and flower lei making. Following these island games is the traditional imu ceremony, in which the kalua pua'a (roast pig) is removed from the imu (underground oven). The grand finale of every Hawaiian luau celebration is a Polynesian show, which typically features music and dances from the Islands and includes the breathtaking Samoan fire-knife dance.</p>
+            <p><span>W</span>e invite you to browse our site and choose your favorite Hawaii luau. Make your reservation early as luaus tend to sell out quickly. Luau-Hawaii.com offers the best prices on all Hawaii luaus! For more information or to order your luau tickets over the phone, call Toll Free at 1-866-482-9775.</p>
+          </article>
+          <div class="article-img">
+            <img src="images/royal_hawaiian_luau_tables_overview.jpg" alt="" class="delayed-img">
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ============================================================ -->
+      <!-- ========== coverage ========== -->
+      <div class="coverage-section">
+        <h2>why book with us</h2>
+        <ul>
+          <li id="c-1">
+            <span>
+            <i class="material-icons icon-first">laptop</i>
+            <i class="material-icons icon-second">lock</i>
+            </span>
+            <header>safe and<br>secure</header>
+            <p>Online booking system with validated privacy protection</p>
+          </li>
+          <li id="c-2">
+            <span>
+              <i class="material-icons icon-first">event</i>
+              <i class="material-icons icon-second">call</i>
+            </span>
+            <header>same day<br>reservationst</header>
+            <p>Receive a full refund if cancellation is made at least 48 hours in advance</p>
+          </li>
+          <li id="c-3">
+            <span>
+              <i class="material-icons icon-first">sentiment_satisfied_alt</i>
+            </span>
+            <header>friendly<br>support</header>
+            <p>Receive your voucher the same day after booking your activity</p>
+          </li>
+          <li id="c-4">
+            <span>
+              <i class="material-icons icon-first">undo</i>
+              <i class="material-icons icon-second">attach_money</i>
+            </span>
+            <header>money back<br>guranteed</header>
+            <p>Our representatives will help you select the best activities and ensure 100% satisfaction</p>
+          </li>
+        </ul>
+      </div>
+      <!-- ========== footer ========== -->
+      <footer class="footer">
+        <ul>
+          <li class="footer-main">
+            <img id="footer-logo" src="images/LOGO.png" alt="">
+            <a href="tel:1-877-357-2480" class="footer-phone">(toll free) 877 357 2480</a>
+            <hr>
+            <a href="tel:1-877-357-2480" class="footer-phone">(local) 877 357 2480</a>
+            <div class="social">
+              <a href="#"> <img src="images/facebook_twitter_youtube_instagram.png" alt="" id="social-fb" class="delayed-img">  </a>
+              <a href="#"> <img src="images/facebook_twitter_youtube_instagram.png" alt="" id="social-tw" class="delayed-img">  </a>
+              <a href="#"> <img src="images/facebook_twitter_youtube_instagram.png" alt="" id="social-yt" class="delayed-img">  </a>
+              <a href="#"> <img src="images/facebook_twitter_youtube_instagram.png" alt="" id="social-ig" class="delayed-img">  </a>
+            </div>
+          </li>
+          <li class="footer-nav">
+            <a href="#">home</a>
+            <hr>
+            <a href="#">packages</a>
+            <hr>
+            <a href="#">about</a>
+            <hr>
+            <a href="#">contact</a>
+            <hr>
+            <a href="#">cart</a>
+            <hr>
+          </li>
+          <li class="footer-nav">
+            <a href="#">site map</a>
+            <hr>
+            <a href="#">privacy policy</a>
+            <hr>
+            <a href="#">terms</a>
+            <hr>
+            <a href="#">login</a>
+            <hr>
+          </li>
+        </ul>
+        <p>Copyright (c) 2018 Copyright Holder All Rights Reserved.</p>
+      </footer>
+    </div>
+    <!-- ========== end ========== -->
+  </main>
+    <script>history.scrollRestoration = "manual"</script>
+    <!-- <script type="text/javascript" src="scroll.js"></script> -->
+    <script type="text/javascript" src="jquery.lazy-master/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="jquery.lazy-master/jquery.lazy.plugins.min.js"></script>
+    <script type="text/javascript" src="toggle.js"></script>
+    <script type="text/javascript" src="checkpoint.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script>
+    var $eventListener = (function () {
+        'use strict';
+        if ("ontouchstart" in document.documentElement === true) {
+            return "touchstart"
+        } else {
+            return "click";
+        }
+    }());
+    var menuCont = document.getElementById("main-nav");
+    var menuBtn = document.getElementById("menu-btn");
+
+    document.addEventListener($eventListener, function (event) {
+        if (!menuCont.contains(event.target) && !visible(menuCont)) {
+            menuCont.className = "main-nav";
+            menuBtn.className = "menu-btn";
+        }
+    })
+    function visible(elem) {
+        return elem && (elem.offsetWidth === 0);
+    }
+    //===================================================//
+    var wrapper = document.getElementsByClassName('detail-window');
+    function toggleOutside(e){
+      if(e.target.classList.contains('active') && e.target !== e.target.firstChild){
+        idToggle(this.id,'active');
+      }
+    }
+
+    for (var i = 0 ; i < wrapper.length; i++) {
+      wrapper[i].addEventListener('click',toggleOutside,false);
+    }
+    // =================
+    </script>
+  </body>
+</html>
